@@ -6,7 +6,7 @@ After=network.target
 Type=simple
 User=orange
 WorkingDirectory=/home/orange/garbage
-ExecStart=/home/orange/garbage/venv/bin/python3 rknn_garbage.py config.json
+ExecStart=/home/orange/garbage/env/bin/python3 ./rknn_garbage.py config.json
 Restart=always
 RestartSec=10
 
