@@ -4,9 +4,9 @@ After=network.target
 
 [Service]
 Type=forking
-User=orangepi
-WorkingDirectory=/home/orangepi/garbage-detection_release
-ExecStart=/home/orangepi/garbage-detection_release/venv/bin/python rknn_garbage.py config.json
+User=orange
+WorkingDirectory=/home/orange/garbage
+ExecStart=/home/orange/garbage/venv/bin/python3 rknn_garbage.py config.json
 Restart=always
 RestartSec=10
 
