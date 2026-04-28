@@ -1,0 +1,28 @@
+{
+    "streams": [
+
+    ],
+    "yoloe": "models/yoloe-11l-seg_rknn_model",
+    "yolo": "models/garbage-yolo11s_rknn_model",
+    "person_iou_threshold": 0.3,
+    "overlap_iou_threshold": 0.7,
+    "inference_interval": 600,
+    "heartbeat_interval": 30,
+    "datasend_interval":600,
+    "frame_width": 640,
+    "frame_height": 360,
+    "frame_send_width": 960,
+    "frame_send_height": 540,
+    "frame_jpeg_quality": 80,
+    "frame_send_jpeg_quality": 80,
+    "demo": false,
+    "livestream": false,
+    "show": false,
+    "always_send_frames": true,
+    "draw": false,
+    "data_send_url": "https://orangepi.baitguests2.com/camera/create-garbage-monitoring/",
+    "heartbeat_url": "https://orangepi.baitguests2.com/camera/create-camera-heartbeat/",
+    "X-Secret-Key": "e5oNH8Yhx8eJml4bSxYw",
+    "local_ip": "127.0.0.2",
+    "mac_address": "6e:8c:5e:e3:0e:67"
+}
