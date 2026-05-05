@@ -20,8 +20,8 @@
     "show": false,
     "always_send_frames": true,
     "draw": false,
-    "data_send_url": "https://orangepi.baitguests2.com/camera/create-garbage-monitoring/",
-    "heartbeat_url": "https://orangepi.baitguests2.com/camera/create-camera-heartbeat/",
+    "data_send_url": "https://backend.aihajjservices.com/camera/create-garbage-monitoring/",
+    "heartbeat_url": "https://backend.aihajjservices.com/camera/create-camera-heartbeat/",
     "X-Secret-Key": "e5oNH8Yhx8eJml4bSxYw",
     "local_ip": "127.0.0.2",
     "mac_address": "6e:8c:5e:e3:0e:67"
